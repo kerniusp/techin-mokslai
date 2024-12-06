@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Travel booking form</h1>
+
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          minlength="3"
+          maxlength="50"
+          required
+          placeholder="Enter your legal name:"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="your email"
+        />
+      </div>
+
+      <div>
+        <label for="pass">Password</label>
+        <br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          required
+          minlength="8"
+          maxlength="80"
+        />
+      </div>
+      <div>
+        <label for="dest">Destination</label>
+        <br />
+        <select
+          name="dest"
+          id="dest"
+        >
+          <option value="dest">Paris</option>
+          <option value="dest">Lyon</option>
+          <option value="dest">Tokyo</option>
+          <option value="dest">Osaka</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="travelers">Number of travelers</label>
+        <br />
+        <input
+          type="number"
+          id="travelers"
+          name="travelers"
+          min="1"
+          max="10"
+        />
+      </div>
+
+      <div>
+        <h4>Select class fo travel</h4>
+        <label for="classec">Economy</label>
+
+        <input
+          type="radio"
+          id="classec"
+          name="class"
+          value="economy"
+        />
+        <br />
+        <label for="classbs">Business</label>
+
+        <input
+          type="radio"
+          id="classbs"
+          name="class"
+          value="business"
+        />
+        <br />
+        <label for="classfs">First class</label>
+
+        <input
+          type="radio"
+          id="classfs"
+          name="class"
+          value="first class"
+        />
+      </div>
+
+      <div>
+        <h4>Additional Services</h4>
+
+        <input
+          type="checkbox"
+          id="meal"
+          name="addi"
+        />
+        <label for="meal">Meal preferences</label>
+        <br />
+        <input
+          type="checkbox"
+          id="travelguide"
+          name="addi"
+        />
+        <label for="travelguide">Travel guide</label>
+        <br />
+        <input
+          type="checkbox"
+          id="airportpickup"
+          name="addi"
+        />
+        <label for="airportpickup">Airport pickup</label>
+      </div>
+      <h4>Payment information</h4>
+      <div>
+        <label for="creditcard">Credit card number</label>
+        <br />
+        <input
+          type="text"
+          id="creditcard"
+          name="creditcard"
+          maxlength="16"
+          pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}"
+        />
+      </div>
+
+      <div>
+        <label for="month">Month expiration</label>
+      </div>
+    </form>
+  </body>
+</html>

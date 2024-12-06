@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Uzpildykite forma</h1>
+    <h3>Visi laukai privalomi.</h3>
+
+    <form>
+      <div>
+        <label for="name">Vardas (Is didziosos raides):</label>
+        <br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Vardas"
+          required
+          pattern="^[A-Z][a-z]+$"
+          maxlength="20"
+        />
+      </div>
+
+      <div>
+        <label for="phone">Jusu telefono numeris:</label>
+        <br />
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          required
+          placeholder="+370-xxx-xxxxx"
+          pattern="^\+370-[0-9]{3}-[0-9]{5}$"
+        />
+      </div>
+
+      <div>
+        <label for="gmail">El.pasto adresas:</label>
+        <br />
+        <input
+          type="email"
+          id="gmail"
+          name="gmail"
+          required
+          maxlength="25"
+          placeholder="el.p.adresas"
+        />
+      </div>
+
+      <div>
+        <label for="urlas"
+          >Jusu megstamiausios internetines svetaines adresas</label
+        >
+        <br />
+        <input
+          type="url"
+          id="urlas"
+          name="urlas"
+          required
+          maxlength="300"
+          placeholder="url adresas"
+        />
+      </div>
+
+      <div>
+        <label for="metai">Jusu gimimo data</label>
+        <br />
+        <input
+          type="date"
+          id="metai"
+          name="metai"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="amzius">Jusu gimimo metai</label>
+        <br />
+        <input
+          type="number"
+          id="amzius"
+          name="amzius"
+          required
+          placeholder="nuo 18 ik 65 metu"
+          min="18"
+          max="65"
+        />
+      </div>
+
+      <div>
+        <label for="pastas">Jusu pasto kodas</label>
+        <br />
+        <input
+          type="text"
+          id="pastas"
+          name="pastas"
+          required
+          maxlength="10"
+          placeholder="XX-1234"
+          pattern="[A-Z]{2}-[0-9]{4}"
+        />
+      </div>
+
+      <div>
+        <label for="spalva">Jusu megstamiausia spalva</label>
+        <br />
+        <input
+          type="color"
+          id="spalva"
+          name="spalva"
+        />
+      </div>
+
+      <button>Pateikti</button>
+    </form>
+  </body>
+</html>
