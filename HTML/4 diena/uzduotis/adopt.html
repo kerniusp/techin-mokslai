@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal information</legend>
+        <div>
+          <label for="name">name</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            minlength="3"
+            maxlength="50"
+            pattern="[a-zA-Z\s]+"
+          />
+        </div>
+
+        <div>
+          <label for="email">email</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="phone">phone number</label>
+          <br />
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            required
+            placeholder="+1-xxx-xxx-xxxx"
+            pattern="\+1-[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          />
+        </div>
+        <div>
+          <label for="pass">password</label>
+          <br />
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            required
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
+          />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Pet selection</legend>
+        <div>
+          <label for="pet">Perferred Pet</label>
+          <select
+            name="pet"
+            id="pet"
+          >
+            <option value="dog">dog</option>
+            <option value="dog">cat</option>
+            <option value="dog">rabbit</option>
+            <option value="dog">bird</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="pet-name">Pets name</label>
+          <br />
+          <input
+            type="text"
+            id="pet-name"
+            name="pet-name"
+          />
+        </div>
+
+        <div>
+          <label for="date">Adoption date</label>
+          <br />
+          <input
+            type="date"
+            id="date"
+            name="date"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="young">Puppy kitten</label>
+          <input
+            type="radio"
+            id="young"
+            name="pets-age"
+            required
+          />
+          <label for="middle">Adult pet</label>
+          <input
+            type="radio"
+            id="middle"
+            name="pets-age"
+          />
+          <label for="senior">Senior pet</label>
+          <input
+            type="radio"
+            id="senior"
+            name="pets-age"
+          />
+        </div>
+
+        <div>
+          <label for="prefer">active pet</label>
+          <input
+            type="checkbox"
+            id="prefer"
+            name="prefer"
+            value="active-pet"
+          />
+
+          <label for="prefer2">Low maintenance</label>
+          <input
+            type="checkbox"
+            id="prefer2"
+            name="prefer"
+            value="low-maintenance"
+          />
+
+          <label for="prefer3">Good with kids</label>
+          <input
+            type="checkbox"
+            id="prefer3"
+            name="prefer"
+            value="good-with-kids"
+          />
+        </div>
+
+        <label for="info">Info about adoption</label>
+        <br />
+        <textarea
+          name="info"
+          id="info"
+          rows="10"
+          cols="35"
+          placeholder="Please enter information to why you want to adopt the pet"
+        ></textarea>
+      </fieldset>
+      <button>Request</button>
+    </form>
+  </body>
+</html>
