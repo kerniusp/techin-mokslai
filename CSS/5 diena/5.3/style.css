@@ -1,0 +1,56 @@
+header {
+  background: #36454f;
+}
+header h1 {
+  color: white;
+}
+header h1 > span {
+  color: orange;
+}
+header nav {
+  background-color: grey;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+article > p {
+  text-indent: 40px;
+  word-spacing: 10px;
+}
+article > p > span {
+  color: orange;
+  letter-spacing: 30px;
+}
+article a {
+  text-decoration: none;
+  color: orange;
+  font-size: 30px;
+  font-weight: bold;
+}
+figcaption {
+  color: orange;
+  text-align: right;
+}
+aside h3{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    letter-spacing: 20px;
+    word-spacing: 120px;
+
+}
+aside ul{
+    text-align: center;
+}
+aside a{
+    text-decoration: none;
+    color: orange;
+}
+footer{
+    background: #36454f;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
