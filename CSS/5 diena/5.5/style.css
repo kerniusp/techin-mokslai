@@ -1,0 +1,47 @@
+/* Give all elements spacing for 10 px and adjust text font to Trebuchet MS */
+* {
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* for the class universalus changes the text color to red and makes it bolder*/
+#universalus {
+  color: red;
+  font-weight: bolder;
+}
+/* changes paantrastes class font style to italic */
+.paantraste {
+  font-style: italic;
+}
+/* class spalvotas has a linear gradient text and its font sizes is increased to 30px */
+.spalvotas {
+  font-size: 30px;
+  background: linear-gradient(to right, #000000, #26ff00, #ff00ff, #ff0000);
+  color: transparent;
+  background-clip: text;
+}
+/* li elements inside section will have a color chocolate and their list will be styled lower-greek*/
+section > ul > li {
+  list-style: lower-greek;
+  color: chocolate;
+}
+/* All the p elements inside section will have a d */
+section > p {
+  color: darkgreen;
+  font-size: 20px;
+}
+/* for all links when covered it will change the color to red*/
+a:hover {
+  color: red;
+}
+/* after pressing the link it will change the color to black */
+a:active {
+  color: black;
+}
+/* before and after the text h1 will add alien emoji. */
+h1::before {
+  content: "👽";
+}
+h1::after {
+  content: "👽";
+}
