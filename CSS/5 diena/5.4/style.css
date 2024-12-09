@@ -1,0 +1,28 @@
+* {
+  font-family: Arial;
+}
+#footer-tekstas {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tekstas {
+  color: darkslateblue;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.tekstas-svarbus {
+  color: olive;
+  font-size: 20px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+ul {
+  list-style: georgian;
+}
+a:hover {
+  color: blue;
+}
