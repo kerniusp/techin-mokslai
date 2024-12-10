@@ -39,9 +39,14 @@ Aprašyti mygtukų Submit ir Reset fono spalvas
 */
 button[type="submit"] {
   background-color: #ff1038;
+  width: 500px;
+  height: 30px;
 }
 button[type="reset"] {
   background-color: pink;
+  width: 500px;
+  height: 30px;
+  margin-top: 5px;
 }
 /* 
 Aprašyti įvedimo laukelių, dropdown sąrašo, mygtukų stilius taip, kad
