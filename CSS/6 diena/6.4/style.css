@@ -1,0 +1,13 @@
+a {
+  color: blue;
+}
+
+a[href^="#"] {
+  background-color: yellow;
+}
+a[href$=".org"] {
+  background-color: red;
+}
+a[href*="example"] {
+  background-color: pink;
+}
