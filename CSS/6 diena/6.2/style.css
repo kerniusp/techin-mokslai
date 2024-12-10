@@ -8,9 +8,9 @@ th {
   width: 150px;
 }
 
-td:not(:first-child) {
+/* td:not(:first-child) {
   text-align: center;
-}
+} */
 th:last-child,
 td:last-child {
   text-align: right;
