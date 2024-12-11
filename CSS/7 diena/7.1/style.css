@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  width: 30%;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.box {
+  border: 4px double white;
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+}
+p {
+  color: white;
+  font-size: 2.5rem;
+  padding-top: 20px;
+}
