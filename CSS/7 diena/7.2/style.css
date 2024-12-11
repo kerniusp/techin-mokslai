@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #011f26;
+  padding: 10px;
+  font-family: Sofia;
+  box-shadow: 10px 10px 0px #a5a692;
+  margin-top: 25px;
+}
+
+h1 {
+  border: 1px solid #011f26;
+}
+
+.box {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  padding-top: 15px;
+}
+
+p {
+  font-style: italic;
+}
+
+li {
+  list-style-type: none;
+}
+
+span {
+  font-weight: bold;
+}
