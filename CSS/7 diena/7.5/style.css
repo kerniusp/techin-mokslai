@@ -1,0 +1,45 @@
+:root {
+  --main-color: #1b3940;
+  --text-color: #f2f2f2;
+  --bottom-color: #7ca69a;
+  --button-text-color: black;
+  --button-color: #1b3940;
+}
+.container {
+  width: 15%;
+}
+
+.form-header {
+  background-color: var(--main-color);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+h2 {
+  color: var(--text-color);
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+p {
+  color: var(--text-color);
+  margin: 0%;
+}
+.form-body {
+  background-color: var(--bottom-color);
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  padding-top: 15px;
+}
+input {
+  width: 90%;
+}
+button {
+  margin-top: 15px;
+  color: var(--button-text-color);
+  border-radius: 8px;
+  padding: 10px 40px;
+  background-color: var(--button-color);
+  font-weight: bold;
+}
+.form-body p {
+  font-size: 0.7rem;
+}
