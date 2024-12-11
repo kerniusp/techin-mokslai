@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Sign Up Form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Sign Up</h1>
+
+      <form>
+        <fieldset>
+          <legend><span class="number">1</span> Your Basic Info</legend>
+
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+          />
+          <div class="age">
+            <p>Age:</p>
+            <input
+              type="radio"
+              id="under-13"
+              value="under-13"
+              name="age"
+            />
+            <label
+              for="under-13"
+              class="light"
+              >Under 13</label
+            ><br />
+
+            <input
+              type="radio"
+              id="over-13"
+              value="over-13"
+              name="age"
+            />
+            <label
+              for="over-13"
+              class="light"
+              >Over 13</label
+            >
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="number">2</span>Your Profile</legend>
+
+          <label for="bio">Bio:</label>
+          <textarea
+            id="bio"
+            name="bio"
+          ></textarea>
+
+          <label for="job">Job Role:</label>
+          <select
+            id="job"
+            name="job"
+          >
+            <optgroup label="Web">
+              <option value="frontend-developer">Frontend Developer</option>
+              <option value="php-developer">PHP Developer</option>
+              <option value="python-developer">Python Developer</option>
+              <option value="rails-developer">Rails Developer</option>
+              <option value="web-designer">Web Designer</option>
+              <option value="wordpress-developer">Wordpress Developer</option>
+            </optgroup>
+
+            <optgroup label="Mobile">
+              <option value="android-developer">Android Developer</option>
+              <option value="ios-developer">IOS Developer</option>
+              <option value="mobile-designer">Mobile Designer</option>
+            </optgroup>
+
+            <optgroup label="Business">
+              <option value="business-owner">Business Owner</option>
+              <option value="freelancer">Freelancer</option>
+            </optgroup>
+          </select>
+          <div class="interest">
+          <p>Interests:</p>
+          <input
+            type="checkbox"
+            id="development"
+            value="development"
+            name="interest"
+          />
+          <label
+            class="light"
+            for="development"
+            >Development</label
+          ><br />
+
+          <input
+            type="checkbox"
+            id="design"
+            value="design"
+            name="interest"
+          />
+          <label
+            class="light"
+            for="design"
+            >Design</label
+          ><br />
+
+          <input
+            type="checkbox"
+            id="business"
+            value="business"
+            name="interest"
+          />
+          <label
+            class="light"
+            for="business"
+            >Business
+          </label>
+          </div>
+        </fieldset>
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>

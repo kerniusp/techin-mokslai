@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #384047;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+/* Jūsų CSS prasideda apačioje */
+
+.container {
+  width: 20%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+fieldset {
+  padding-left: 15px;
+}
+label {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  height: 35px;
+  background-color: aliceblue;
+}
+
+.age {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.number {
+  background-color: green;
+  border-radius: 50%;
+}
+.interest {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgreen;
+  color: white;
+  border-radius: 5%;
+  border: 0;
+}
+textarea {
+  width: 90%;
+  height: 80px;
+  background-color: aliceblue;
+}
+
+select {
+  background-color: aliceblue;
+}
+
+form {
+  background-color: rgb(203, 213, 223);
+}
+
+fieldset {
+  border: 0;
+}
