@@ -1,6 +1,6 @@
 const akvariumas = +prompt("Kiek zuvu gyvena akvariume? ");
-const ideti = +prompt("Kiek zuvu i akvariuma idedama kiekviena diena?");
-const diena = +prompt("Kiek dienu praejo?");
+const idejoZuvu = +prompt("Kiek zuvu i akvariuma idedama kiekviena diena?");
+const dienuPraiejo = +prompt("Kiek dienu praejo?");
 
-const result = ideti * diena + akvariumas;
-console.log(`Po ${diena} dienu akvariume gyvens ${result} zuvu`);
+const result = idejoZuvu * dienuPraiejo + akvariumas;
+console.log(`Po ${dienuPraiejo} dienu akvariume gyvens ${result} zuvu`);
