@@ -9,3 +9,4 @@ const resultMin = result * 45;
 
 console.log(`Pamoku skaicius: ${result}`);
 console.log(`Tai sudaro minuciu ${resultMin}`);
+
