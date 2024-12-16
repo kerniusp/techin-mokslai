@@ -160,3 +160,7 @@ button:hover {
   list-style-type: none;
   padding-top: 2px;
 }
+button a {
+  color:white;
+  text-decoration: none;
+}

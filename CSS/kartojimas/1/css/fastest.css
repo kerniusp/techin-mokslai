@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: box;
+}
+.container {
+  display: grid;
+  width: 60%;
+  background-color: red;
+  margin: 0 auto;
+}
