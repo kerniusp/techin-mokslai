@@ -1,6 +1,6 @@
 const mariausSaldainiai = +prompt("Kiek saldainiu gauna Marius");
 const kiekSaldainiuSuvalgo = +prompt("Kiek saldainiu suvalgo Marius");
-const dienosIkiKaledu = +prompt("Kiek dienu liko iki kaledu?");
+const dienosIkiKaledu = Number(prompt("Kiek dienu liko iki kaledu?"));
 
 const sukauptiSaldainiai =
   (mariausSaldainiai - kiekSaldainiuSuvalgo) * dienosIkiKaledu;
