@@ -33,3 +33,5 @@ atstatyti.addEventListener("click", function () {
 
 console.log(atstatyti);
 console.log(nuotrauka);
+
+
