@@ -22,6 +22,7 @@ mygtukas.addEventListener("click", function () {
   parent.appendChild(komentaras);
   parent.appendChild(tarpas);
   parent.appendChild(didelistekstas);
+  parent.appendChild(tarpas);
   parent.appendChild(pateikti);
 });
 
