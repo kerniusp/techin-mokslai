@@ -14,5 +14,5 @@ forma.addEventListener("submit", function (e) {
   const atsakymas = apskaiciavimas(suma, aptarnavimas, skaicius);
 
   const newP = document.querySelector("#atsakymas");
-  newP.textContent = `Arbatpinigiai ${atsakymas} Kiekvienam!`;
+  newP.textContent = `Arbatpinigiai ${atsakymas}$ Kiekvienam!`;
 });
