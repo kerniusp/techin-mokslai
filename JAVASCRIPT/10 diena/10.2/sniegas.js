@@ -1,11 +1,6 @@
 const snaiges = Number(prompt("Kiek snaigiu nukrito"));
 const sekundes = Number(prompt("Kiek laiko snigo"));
-const bendras = snaiges * sekundes;
-
+let dvigubas = 0;
 for (let i = 0; i <= sekundes; i++) {
-  console.log(bendras);
-  if (i > 1) {
-    let pakelti = Math.pow(bendras, 2);
-  }
+  dvigubas = snaiges * console.log(dvigubas);
 }
-console.log(bendras);
