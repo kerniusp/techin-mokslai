@@ -18,13 +18,19 @@ function nuotrauka(number) {
       console.log("testas");
   }
 }
-console.log(forma);
-console.log(background);
 
-forma.addEventListener("change", function () {
-  const pasirinkimas = document.querySelector("#id-of-select");
-  const pasirinkimoValue = pasirinkimas.value;
-  console.log(pasirinkimoValue);
-
-  nuotrauka(pasirinkimoValue);
+forma.addEventListener("change", function (e) {
+  const optionas = Number(e.target.value);
+  nuotrauka(optionas);
 });
+
+// console.log(forma);
+// console.log(background);
+
+// forma.addEventListener("change", function () {
+//   const pasirinkimas = document.querySelector("#id-of-select");
+//   const pasirinkimoValue = pasirinkimas.value;
+//   console.log(pasirinkimoValue);
+
+//   nuotrauka(pasirinkimoValue);
+// });
