@@ -1,0 +1,79 @@
+.container {
+  background-color: #0f5959;
+  width: 330px;
+  height: 330px;
+  margin: 0 auto;
+  border-radius: 8%;
+}
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 0%;
+  margin-top: 30px;
+  width: 88%;
+}
+.form__label {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+.form__input__suma {
+  padding: 10px;
+}
+.form__input__suma > label {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: -10px;
+}
+.form__input__suma > input {
+  padding: 4px;
+  border: 1px solid black;
+}
+.form__select__aptarnavimas {
+  padding: 10px;
+}
+.form__select__aptarnavimas > select {
+  display: block;
+  font-size: 1.3rem;
+  width: 200px;
+  height: 50px;
+  margin-bottom: -10px;
+}
+
+.form__input__skaicius {
+  padding: 10px;
+}
+.form__input__skaicius > label {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: -10px;
+}
+.form__input__skaicius > input {
+  padding: 4px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 10px;
+  border-radius: 7%;
+  width: 60%;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #0f5959;
+}
+.button__center {
+  text-align: center;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+  padding: 2px;
+}
+#atsakymas{
+    color: #0f5959;
+    font-size: 1.2rem;
+    font-weight: 3rem;
+
+}

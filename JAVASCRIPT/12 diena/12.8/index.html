@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form__label">Arbatpinigiu skaiciuokle</h1>
+      <form id="arbatpinigiu-skaiciuokle">
+        <div class="form__input__suma">
+          <label for="sas-suma">Saskaitos suma:</label>
+          <br />
+          <input
+            type="text"
+            id="sas-suma"
+            name="sas-suma"
+            placeholder="Saskaitos suma"
+          />
+        </div>
+
+        <div class="form__select__aptarnavimas">
+          <select
+            id="aptarnavimas"
+            name="aptarnavimas"
+          >
+            <option
+              value=""
+              disabled
+              selected
+            >
+              Pasirinkite aptarnavimą
+            </option>
+            <option value="1">30% fantastika</option>
+            <option value="2">20% fantastika</option>
+            <option value="3">10% - OK</option>
+            <option value="4">5% - Blogas</option>
+            <option value="5">1% - Siaubingas</option>
+          </select>
+        </div>
+
+        <div class="form__input__skaicius">
+          <label for="skaicius">Zmoniu skaicius:</label>
+          <br />
+          <input
+            type="text"
+            id="skaicius"
+            name="skaicius"
+            placeholder="Zmoniu skaicius"
+          />
+        </div>
+        <div class="button__center">
+          <button type="submit">Skaiciuok</button>
+          <p id="atsakymas"></p>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
