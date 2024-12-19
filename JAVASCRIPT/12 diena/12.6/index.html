@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Fono paveikslėlis</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="id-of-select">Pasirinkite kokio fono norėtumėte</label>
+          <select
+            class="form-control"
+            id="id-of-select"
+            name="theme"
+          >
+            <option
+              value="0"
+              selected
+              disabled
+            >
+              --Pasirinkite--
+            </option>
+
+            <option value="1">Pavasaris</option>
+            <option value="2">Vasara</option>
+            <option value="3">Ruduo</option>
+            <option value="4">Žiema</option>
+          </select>
+        </div>
+
+        <button
+          id="btn"
+          class="btn btn-success"
+          type="submit"
+        >
+          Rodyti
+        </button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
