@@ -1,0 +1,107 @@
+/* General setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: "Sofia", sans-serif;
+}
+
+/* Layout */
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW! */
+aside > ul > li > a {
+  color: #a66;
+}
+aside > ul > li {
+  color: #a66;
+}
+nav > ul > li {
+  list-style-type: none;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #a66;
+  margin-top: 10px;
+  text-align: center;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #a66;
+}
+p > a {
+  color: #a66;
+}
+
+section > ul > li::marker {
+  color: #a66;
+}
+section > ol > li > a {
+  color: #a66;
+}
+section > ol > li::marker {
+  color: #a66;
+}
+/*
+Fonts: 
+    1. Apply your body font to the whole page, and your heading font to your headings. Use Google fonts.
+
+
+General text styling:
+    1. Give the page a site-wide font-size of 10px.
+    2. Give your headings and other element types appropriate font-sizes defined using a suitable relative unit.
+    3. Give your body text a suitable line-height.
+    4. Center your top level heading on the page.
+    5. Give your headings a little bit of letter-spacing to make them not too too squashed, and allow the letters to breathe a bit.
+    6. Give your body text some letter-spacing and word-spacing, as appropriate.
+    7. Give the first paragraph after each heading in the <section> a little bit of text-indentation, say 20px.
+
+Links:
+    1. Give the link, visited, focus, and hover states some colors that go with the color of the horizontal bars at the top and bottom of the page.
+    2. Make it so that links are underlined by default, but when you hover or focus them, the underline disappears.
+    3. Remove the default focus outline from ALL the links on the page.
+    4. Give the active state a noticeably different styling so it stands out nicely, but make it still fit in with the overall page design.
+    5. Make it so that external links have the external link icon inserted next to them (arrow symbol).
+
+Lists:
+    1. Make sure the spacing of your lists and list items works well with the styling of the overall page. Each list item should have the same line-height as a paragraph line, and each list should have the same spacing at its top and bottom as you have between paragraphs.
+    2. Give your list items a nice bullet, appropriate for the design of the page. It is up to you whether you choose a custom bullet image or something else.
+
+Navigation menu:
+    1. Style your navigation menu so that it has an appropriate look for the look and feel for the page.
+*/
