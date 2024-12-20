@@ -46,6 +46,21 @@ footer {
 }
 
 /* WRITE YOUR CODE BELOW! */
+aside {
+  font-size: 15px;
+}
+header {
+  text-align: center;
+}
+
+header > h1 {
+  letter-spacing: 3px;
+}
+section > p {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-indent: 20px;
+}
 aside > ul > li > a {
   color: #a66;
 }
@@ -68,6 +83,10 @@ p > a {
   color: #a66;
 }
 
+
+section > ul > li  {
+  list-style-type: "🌵";
+}
 section > ul > li::marker {
   color: #a66;
 }
@@ -76,6 +95,22 @@ section > ol > li > a {
 }
 section > ol > li::marker {
   color: #a66;
+}
+a:hover {
+  color: rgb(124, 13, 13);
+  text-decoration: none;
+}
+a:link {
+  color: rgb(124, 13, 13);
+}
+a:focus {
+  color: rgb(124, 13, 13);
+}
+a:visited {
+  color: rgb(165, 105, 105);
+}
+a:active {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
 }
 /*
 Fonts: 
