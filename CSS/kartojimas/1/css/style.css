@@ -21,6 +21,7 @@ body {
 .header__nav {
   list-style: none;
   text-align: right;
+
 }
 .header__nav > li {
   display: inline-block;
@@ -29,7 +30,7 @@ body {
 }
 
 .header__nav > li:not(:last-child) {
-  padding: 15px;
+  padding: 10px;
 }
 .header__nav > li:not(:last-child):hover {
   background-color: #82b0d9;
@@ -56,11 +57,13 @@ body {
   margin-top: 25px;
   padding: 25px;
   box-shadow: 2px 2px 2px 2px white;
+  
 }
 .section__h2 {
   color: #82b0d9;
   padding: 5px;
   padding-top: 15px;
+  margin-top: -10px;
 }
 figure {
   display: inline-block;
@@ -83,13 +86,15 @@ img {
   float: right;
   padding: 10px;
   width: 50%;
+  margin-top: -40px
 }
 .section__p {
   padding-bottom: 20px;
+
 }
 .section__div2__left {
   display: inline-block;
-  width: 45%;
+  width: 50%;
 }
 .section__div2__right {
   width: 45%;
