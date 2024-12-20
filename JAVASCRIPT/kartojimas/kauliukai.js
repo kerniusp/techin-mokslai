@@ -10,3 +10,10 @@ for (let i = 1; i <= kiekis; i++) {
 console.log("Is viso buvo galima surinkti " + kiekis * 6);
 console.log(`Tomas is viso surinko ${bendras}`);
 console.log("Jo tasku vidurkis: " + bendras / kiekis);
+
+if (bendras >= (kiekis * 6) / 2) {
+  console.log("Loterija laimejo");
+} else {
+  console.log("Loterija pralaimejo");
+}
+2;
