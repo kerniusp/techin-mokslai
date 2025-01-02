@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="ugis">Iveskites savo ugi</label> <br />
+        <input
+          type="number"
+          name="ugis"
+          id="ugis"
+          placeholder="Iveskite savo ugi centimetrais"
+        />
+      </div>
+
+      <div>
+        <label for="svoris">Iveskite savo svori</label> <br />
+        <input
+          type="number"
+          name="svoris"
+          id="svoris"
+          placeholder="Iveskite savo svori kilogramais"
+        />
+      </div>
+
+      <button id="button">Skaicuoti KMI</button>
+      <span id="answer-span"></span>
+    </form>
+    <script src="kmi.js"></script>
+  </body>
+</html>
