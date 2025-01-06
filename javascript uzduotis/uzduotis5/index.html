@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Interest Calculator</h1>
+      <form id="forma">
+        <div class="gaps">
+          <label for="amount">Amount</label>
+          <input
+            type="number"
+            id="amount"
+            name="amount"
+            class="amonut--input"
+          />
+        </div>
+
+        <div class="gaps">
+          <label for="interest">Interest rate</label>
+          <input
+            type="range"
+            min="0.00"
+            max="20.00"
+            id="interest"
+            name="interest"
+            step="any"
+          />
+          <span id="interestSpan"></span>
+        </div>
+
+        <div class="gaps">
+          <label for="years">No. of Years</label>
+          <input
+            type="number"
+            id="years"
+            name="years"
+          />
+        </div>
+        <button type="submit">Calculate Interest</button>
+      </form>
+      <p>If you deposit <span id="amount-answer"></span></p>
+      <p>at an interest rate of <span id="interest-answer"></span></p>
+      <p>you will receive an amonut of <span id="answer"></span></p>
+      <p>in the year <span id="year-answer"></span></p>
+    </div>
+
+    <script src="uzduotis5.js"></script>
+  </body>
+</html>

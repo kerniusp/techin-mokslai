@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+label{
+    padding: 10px;
+}
+.gaps{
+    margin-top: 5px;
+}
+input{
+    margin-left: 20px;
+    padding: 5px;
+}
+.amonut--input{
+    margin-left: 45px;
+}
+button{
+    padding: 10px 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
