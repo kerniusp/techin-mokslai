@@ -16,6 +16,32 @@ nav {
 .menu > nav > ul {
   list-style-type: none;
 }
+li:hover {
+  color: red;
+  cursor: pointer;
+}
+li:active {
+  color: pink;
+}
+li:visited {
+  text-decoration: underline;
+  color: blue;
+}
+
+button:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+button:active {
+  background-color: red;
+}
+button:visited {
+  background-color: blue;
+}
+
+li {
+  width: 4%;
+}
 
 .background--picture {
   background-image: url("images/pexels-michael-block-1691617-3225529.jpg");
@@ -27,7 +53,7 @@ nav {
 }
 h3 {
   text-align: center;
-  padding: 10px;
+  margin: 10px;
 }
 
 .container {
@@ -48,12 +74,11 @@ img {
   padding-bottom: 15px;
   margin-bottom: 20px;
 }
-.container--default > h4,
-p,
-a {
-  padding-left: 5px;
+.padding--left--5px {
+  padding-left: 15px;
 }
-.container--default > h4 {
+
+.gap--from--bottom {
   padding-bottom: 10px;
 }
 .container--default > a {
@@ -77,7 +102,7 @@ form {
 }
 input {
   width: 95%;
-  padding-top: 10px;
+  padding: 7px;
 }
 form > div {
   margin-bottom: 15px;
@@ -94,5 +119,5 @@ button {
   background-color: #344859;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
