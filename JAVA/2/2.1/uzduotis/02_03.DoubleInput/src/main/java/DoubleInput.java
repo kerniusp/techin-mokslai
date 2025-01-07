@@ -8,5 +8,8 @@ public class DoubleInput {
 
         // write your program here
 
+        System.out.println("Give a number:");
+        double skaicius = Double.parseDouble(scanner.nextLine());
+        System.out.println("You gave the number " + skaicius);
     }
 }
