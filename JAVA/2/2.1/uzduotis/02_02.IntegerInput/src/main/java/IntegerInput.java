@@ -8,5 +8,9 @@ public class IntegerInput {
 
         // write your program here
 
+        System.out.println("Give a number:");
+        int skaicius = Integer.parseInt(scanner.nextLine());
+        System.out.println("You gave the number " + skaicius);
+
     }
 }
