@@ -20,7 +20,7 @@ public class AverageOfPositiveNumbers {
                 sum +=number;
             }
         }
-        
+
         if(positiveCounter > 0){
             System.out.println((double)sum / positiveCounter);
         }else{
