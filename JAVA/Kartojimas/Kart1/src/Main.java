@@ -3,8 +3,8 @@ public class Main {
 
 //        weeksAndDays();
 //        clock();
-        multiplicationTable();
-//        square(8);
+//        multiplicationTable();
+        square(6);
     }
 
     public static void weeksAndDays() {
