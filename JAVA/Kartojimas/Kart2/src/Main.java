@@ -1,5 +1,12 @@
+import static java.lang.StringUTF16.indexOf;
+
 public class Main {
     public static void main(String[] args) {
+
+        int
+    }
+
+
 //        System.out.println(convertTemp(25));
 //        System.out.println(minutesToTime(185));
 //        numberPattern(4);
@@ -10,7 +17,7 @@ public class Main {
 //        System.out.println(isPerfect(6));
 //        System.out.println(isPerfect(15));
 //        oddMultiplicationTable(5);
-    }
+
 
     public static String convertTemp(double celsius) {
 

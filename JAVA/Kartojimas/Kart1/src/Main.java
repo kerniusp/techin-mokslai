@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-//        weeksAndDays();
-//        clock();
-//        multiplicationTable();
-        square(6);
+        weeksAndDays();
+        clock();
+        multiplicationTable();
+        square(12);
     }
 
     public static void weeksAndDays() {
@@ -73,21 +73,21 @@ public class Main {
 
             if (i == 1 || i == number) {
                 for (int j = 1; j <= number; j++) {
-                    System.out.print("#");
+                    System.out.print("#  ");
                 }
             } else {
-                System.out.print("#");
+                System.out.print("#  ");
                 printSpaces(gap);
-                System.out.print("#");
+                System.out.print("#  ");
             }
-            System.out.println("");
+            System.out.println();
 
         }
     }
 
     public static void printSpaces(int number) {
         for (int i = 1; i <= number; i++) {
-            System.out.print(" ");
+            System.out.print("   ");
         }
     }
 
