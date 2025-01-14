@@ -7,4 +7,13 @@ public class RemoveLast {
         // Try your method in here
     }
 
+
+    public static void removeLast(ArrayList<Integer> numbers) {
+
+        if (numbers.size() > 0) {
+            numbers.remove(numbers.size() - 1);
+        }
+
+
+    }
 }
