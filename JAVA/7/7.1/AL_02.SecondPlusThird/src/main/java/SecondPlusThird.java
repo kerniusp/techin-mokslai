@@ -11,12 +11,12 @@ public class SecondPlusThird {
         while (true) {
             int number = Integer.valueOf(scanner.nextLine());
             if (number == 0) {
+                System.out.println(numbers.get(1) + numbers.get(2));
                 break;
             }
-            
+
             numbers.add(number);
         }
-
         
     }
 }
