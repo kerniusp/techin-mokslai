@@ -11,10 +11,12 @@ public class ListSize {
         while (true) {
             String input = scanner.nextLine();
             if (input.equals("")) {
+                System.out.println(list.size());
                 break;
             }
 
             list.add(input);
+
         }
 
     }
