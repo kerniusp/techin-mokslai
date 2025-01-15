@@ -21,7 +21,6 @@ public class OnlyTheseNumbers {
                 for (int i = 0; i < numbers.size(); i++) {
                     if (i >= startNumber && i <= endNumber) {
                         System.out.println(numbers.get(i));
-
                     }
                 }
                 break;
