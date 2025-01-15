@@ -40,11 +40,19 @@ public class ArraysTask {
     public static int[] removeElementAndReturnNewArray(int[] arr, int k) {
         //TODO
 
-        if (k > arr.length) {
-            
+        if (k >= arr.length || k < 0) {
+            return arr;
+        }
+        int[] newArray = new int[arr.length - 1];
+        int j = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (i != k) {
+                newArray[j] = arr[i];
+                j++;
+            }
         }
 
-        return null;
+        return newArray;
     }
 
     //Parašykite metodą, kuris įterptų į masyvą arr[n] prieš k-tąjį elementą reikšmę x,

@@ -5,45 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8483ab09-9400-4bc7-baca-0b7121e87302" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01.Swap/.tmcproject.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01.Swap/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01.Swap/src/main/java/Swap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01.Swap/src/test/java/SwapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01.Swap/target/classes/Swap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_01.Swap/target/test-classes/SwapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_02.IndexWasNotFound/.tmcproject.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_02.IndexWasNotFound/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_02.IndexWasNotFound/src/main/java/IndexWasNotFound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_02.IndexWasNotFound/src/test/java/IndexWasNotFoundTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_02.IndexWasNotFound/target/classes/IndexWasNotFound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_02.IndexWasNotFound/target/test-classes/IndexWasNotFoundTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_03.SumOfArray/.tmcproject.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_03.SumOfArray/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_03.SumOfArray/src/main/java/SumOfArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_03.SumOfArray/src/test/java/SumOfArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_03.SumOfArray/target/classes/SumOfArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_03.SumOfArray/target/test-classes/SumOfArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_04.PrintNeatly/.tmcproject.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_04.PrintNeatly/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_04.PrintNeatly/src/main/java/ArrayPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_04.PrintNeatly/src/test/java/ArrayPrinterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_04.PrintNeatly/target/classes/ArrayPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_04.PrintNeatly/target/test-classes/ArrayPrinterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_05.PrintInStars/.tmcproject.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_05.PrintInStars/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_05.PrintInStars/src/main/java/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_05.PrintInStars/src/test/java/PrinterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_05.PrintInStars/target/classes/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_05.PrintInStars/target/test-classes/PrinterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uzduotis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.3/06_3_arrays/src/main/java/lt/techin/praktinis/ArraysTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.3/06_3_arrays/src/main/java/lt/techin/praktinis/ArraysTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +47,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/git/techin-mokslai/JAVA/6/6.2/06_2_masyvai",
+    "last_opened_file_path": "C:/Users/ITWORK/Desktop/JAVA/Basics/Tempature_converter",
     "settings.editor.selected.configurable": "google-java-format.settings"
   }
 }]]></component>
@@ -97,8 +60,10 @@
       </method>
     </configuration>
     <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Printer" />
-      <module name="06_05.PrintInStars" />
+      <module name="6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
