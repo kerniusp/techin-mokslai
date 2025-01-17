@@ -1,5 +1,6 @@
 package lt.techin.praktinis;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class ArraysTask {
@@ -13,7 +14,10 @@ public class ArraysTask {
 
 //
 //        reverseInPlace(arr);
-        int[] arrWithRemovedElement = removeElementAndReturnNewArray(arr, 1);
+//        int[] arrWithRemovedElement = removeElementAndReturnNewArray(arr, 2);
+//        System.out.println(Arrays.toString(arrWithRemovedElement));
+
+        System.out.println(Arrays.toString(insertElementAndReturnNewArray(arr, 20, 5)));
 //        System.out.println(Arrays.toString(arrWithRemovedElement));
 //        System.out.println(Arrays.toString(reverseArray(arr)));
 //        System.out.println(Arrays.toString(generateRandomArray(5, 0, 10)));
@@ -41,8 +45,9 @@ public class ArraysTask {
         //TODO
 
         if (k >= arr.length || k < 0) {
-            return arr;
+            return null;
         }
+
         int[] newArray = new int[arr.length - 1];
         int j = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -60,14 +65,29 @@ public class ArraysTask {
     //Jei k yra už masyvo ribų, metodas grąžina null (teisingiau būtų mesti exception, bet dar nesimokėm)
     public static int[] insertElementAndReturnNewArray(int[] arr, int k, int x) {
         //TODO
+        if (k >= arr.length || k < 0) {
+            return null;
+        }
+        int j = 0;
+        int[] newArray = new int[arr.length + 1];
+        for (int i = 0; i < arr.length; i++) {
 
+            newArray[j] = arr[i];
 
-        return null;
+            if (i == k) {
+                newArray[j] = arr[x];
+                j++;
+                newArray[j] = arr[i];
+            }
+            j++;
+        }
+
+        return newArray;
     }
 
     //Parašykite metodą, kuris grąžintų duoto masyvo apverstą kopija.
     public static int[] reverseArray(int[] arr) {
-        //TODO
+
 
         int[] newArray = new int[arr.length];
         int arrayLength = arr.length;
@@ -81,7 +101,7 @@ public class ArraysTask {
 
     //Parašykite metodą, kuris apverstu duotą masyvą (nekuriant naujo masyvo)
     public static void reverseInPlace(int[] arr) {
-        //TODO
+
         int storage = 0;
         int arrayLength = arr.length;
         for (int i = 0; i < arr.length / 2; i++) {
