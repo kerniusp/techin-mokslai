@@ -126,6 +126,7 @@ public class Account {
     public String toString() {
         return "---Information--- \n" +
                 "id: " + id + "\n" +
+                "name: " + name + "\n" +
                 "balance: " + balance + "\n" +
                 "annualInterestRate: " + annualInterestRate + "\n" +
                 "createdDate: " + createdDate +
