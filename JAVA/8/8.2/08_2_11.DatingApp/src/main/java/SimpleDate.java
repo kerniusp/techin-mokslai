@@ -26,60 +26,50 @@ public class SimpleDate {
         }
 
         if (this.year == compared.year && this.month == compared.month &&
-                 this.day < compared.day) {
+                this.day < compared.day) {
             return true;
         }
 
         return false;
     }
 
-    public void advance(){
-        if(day < 30){
+    public void advance() {
+        if (day < 30) {
             day++;
-        }else{
+        } else {
             month++;
-            day -=29;
+            day -= 29;
         }
 
-        if(month == 12){
+        if (month == 12) {
             month = 12;
-        }else if(month > 12){
+        } else if (month > 12) {
             month -= 12;
             year++;
         }
 
     }
 
-    public void advance (int howManyDays){
+    public void advance(int howManyDays) {
 
-        if(day < 30){
-            day+= howManyDays;
-        }else{
-            month++;
-            day -= 30 - howManyDays;
-        }
 
-        if(month == 12){
-            month = 12;
-        }else if(month > 12){
-            month -= 12;
-            year++;
+        for (int i = 1; i <= howManyDays; i++) {
+            advance();
         }
 
     }
 
-    public SimpleDate afterNumberOfDays(int days){
+    public SimpleDate afterNumberOfDays(int days) {
 
         SimpleDate newDate = new SimpleDate(this.day, month, year);
         newDate.advance(days);
 
-        if(newDate.day >= 30) {
+        if (newDate.day >= 30) {
             newDate.day -= 30;
             newDate.month++;
             return newDate;
         }
-            return newDate;
-
+        return newDate;
 
 
     }
