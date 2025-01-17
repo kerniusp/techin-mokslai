@@ -1,20 +1,24 @@
 import java.util.*;
 
+
 public class Main {
     public static void main(String[] args) {
 
-        Date AccountCreatedDate = new Date(2025, 02, 17);
+        Date accountCreatedDate = new Date(2025, 02, 17);
 
-        Account justAcc = new Account(1, 20_000, AccountCreatedDate);
-        Account savingAcc = new SavingAccount(2, 50_000, AccountCreatedDate, true);
-        Account checkingAcc = new CheckingAccount(3, 100_000, AccountCreatedDate, true);
+        Account testAccount = new Account("George",1122,1000);
+        testAccount.setAnnualInterestRate(1.5);
 
-        justAcc.setAnnualInterestRate(4.5);
 
-        System.out.println(checkingAcc);
+        testAccount.deposit(30);
+        testAccount.deposit(40);
+        testAccount.deposit(50);
 
-        System.out.println(justAcc.getMonthlyInterest());
-        System.out.println(justAcc.getMonthlyInterestRate());
-        
+        testAccount.withdraw(5);
+        testAccount.withdraw(4);
+        testAccount.withdraw(2);
+
+        System.out.println(testAccount);
+        testAccount.printAllTransactions();
     }
 }

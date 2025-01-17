@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class Transaction {
 
     private Date transactionDate;
@@ -45,5 +46,23 @@ public class Transaction {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Date getTransactionDate() {
+        return transactionDate;
+    }
+
+    public void setTransactionDate(Date transactionDate) {
+        this.transactionDate = transactionDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Transaction information| " +
+                "transactionDate:" + transactionDate +
+                "|type=" + type +
+                "|amount=" + amount +
+                "|balance=" + balance +
+                "|description='" + description + '\'';
     }
 }
