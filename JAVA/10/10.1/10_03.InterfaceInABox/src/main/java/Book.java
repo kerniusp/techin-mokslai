@@ -19,6 +19,6 @@ public class Book implements Packable {
 
     @Override
     public String toString() {
-        return author + ", " + bookName + ", " + weight;
+        return author + ": " + bookName;
     }
 }

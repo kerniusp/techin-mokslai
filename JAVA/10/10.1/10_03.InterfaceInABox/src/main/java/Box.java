@@ -8,8 +8,10 @@ public class Box implements Packable {
     private int counter;
 
 
+
     public Box(double maxCapacity) {
         this.maxCapacity = maxCapacity;
+
         this.packable = new ArrayList<>();
 
     }
@@ -18,24 +20,29 @@ public class Box implements Packable {
         if (item.weight() <= maxCapacity) {
             packable.add(item);
             maxCapacity -= item.weight();
-            weight(item.weight());
             counter++;
         }
 
     }
 
-    public double weight(double input) {
-        return input += input;
 
-    }
 
     @Override
     public double weight() {
-        return 0;
+
+        double sum = 0;
+        for(int i = 0; i < packable.size(); i++){
+            Packable item = (Packable) packable.get(i);
+            sum += item.weight();
+        }
+        return sum;
     }
+
+
+
 
     @Override
     public String toString() {
-        return "Box: " + counter + " items," + " total weight  " + weight();
+        return "Box: " + counter + " items," + " total weight " +weight() + " kg";
     }
 }

@@ -17,6 +17,6 @@ public class CD implements Packable {
 
     @Override
     public String toString() {
-        return artist + ", " + cdName + ", " + year;
+        return artist + ": " + cdName + " (" + year + ")";
     }
 }
