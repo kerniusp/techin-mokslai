@@ -17,7 +17,7 @@ public class Student extends Person {
     @Override
     public String toString() {
 
-        return super.toString() + "\n  Study credits" + studyCredits;
+        return super.toString() + "  Study credits " + "\n" +  studyCredits;
 
     }
 }

@@ -17,7 +17,7 @@ public class ArraysTask {
 //        int[] arrWithRemovedElement = removeElementAndReturnNewArray(arr, 2);
 //        System.out.println(Arrays.toString(arrWithRemovedElement));
 
-        System.out.println(Arrays.toString(insertElementAndReturnNewArray(arr, 20, 5)));
+        System.out.println(Arrays.toString(insertElementAndReturnNewArray(arr, 1, 5)));
 //        System.out.println(Arrays.toString(arrWithRemovedElement));
 //        System.out.println(Arrays.toString(reverseArray(arr)));
 //        System.out.println(Arrays.toString(generateRandomArray(5, 0, 10)));
@@ -72,13 +72,12 @@ public class ArraysTask {
         int[] newArray = new int[arr.length + 1];
         for (int i = 0; i < arr.length; i++) {
 
-            newArray[j] = arr[i];
-
             if (i == k) {
                 newArray[j] = arr[x];
                 j++;
                 newArray[j] = arr[i];
             }
+            newArray[j] = arr[i];
             j++;
         }
 
