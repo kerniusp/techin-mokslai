@@ -5,27 +5,27 @@ public class ChangeHistory {
     private ArrayList<Double> listOfChangeHistory;
 
 
-    public ChangeHistory(){
-
+    public ChangeHistory() {
+        this.listOfChangeHistory = new ArrayList<>();
     }
 
-    public void add(double status){
+    public void add(double status) {
 
         listOfChangeHistory.add(status);
     }
 
-    public void clear(){
+    public void clear() {
 
-        for(int i = 0; i < listOfChangeHistory.size(); i++){
+        for (int i = 0; i < listOfChangeHistory.size(); i++) {
             listOfChangeHistory.remove(i);
         }
     }
 
-    public double maxValue(){
+    public double maxValue() {
         double biggestValue = 0;
 
-        for(int i = 0; i < listOfChangeHistory.size(); i++){
-            if(biggestValue < listOfChangeHistory.get(i)){
+        for (int i = 0; i < listOfChangeHistory.size(); i++) {
+            if (biggestValue < listOfChangeHistory.get(i)) {
                 biggestValue = listOfChangeHistory.get(i);
             }
         }
@@ -33,12 +33,12 @@ public class ChangeHistory {
         return biggestValue;
     }
 
-    public double minValue(){
+    public double minValue() {
 
         double smallestValue = 0;
 
-        for(int i = 0; i < listOfChangeHistory.size(); i++){
-            if(smallestValue > listOfChangeHistory.get(i)){
+        for (int i = 0; i < listOfChangeHistory.size(); i++) {
+            if (smallestValue > listOfChangeHistory.get(i)) {
                 smallestValue = listOfChangeHistory.get(i);
             }
         }
@@ -46,11 +46,11 @@ public class ChangeHistory {
         return smallestValue;
     }
 
-    public double average(){
+    public double average() {
 
         double averageValue = 0;
 
-        for(int i = 0; i < listOfChangeHistory.size(); i++){
+        for (int i = 0; i < listOfChangeHistory.size(); i++) {
             averageValue += listOfChangeHistory.get(i);
         }
 
@@ -60,7 +60,7 @@ public class ChangeHistory {
 
     @Override
     public String toString() {
-        return "[" +listOfChangeHistory +"]";
+        return "[" + listOfChangeHistory + "]";
 
     }
 }
