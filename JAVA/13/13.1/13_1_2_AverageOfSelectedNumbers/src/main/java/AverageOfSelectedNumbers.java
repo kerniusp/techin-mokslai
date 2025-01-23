@@ -21,15 +21,15 @@ public class AverageOfSelectedNumbers {
         }
 
         System.out.println("Print the average of the negative numbers or positive numbers? (n/p)");
-        char optionOfnumbers = scanner.next().charAt(0);
+        char NegativeOrPositive = scanner.next().charAt(0);
 
-        if (optionOfnumbers == 'n') {
+        if (NegativeOrPositive == 'n') {
             List<Integer> negativeNumbers = listOfNumbers.stream()
                     .filter(numbers -> numbers < 0)
                     .collect(Collectors.toList());
             System.out.println("Average of the negative numbers: " + (double) negativeNumbers.stream().mapToInt(number -> number).sum() / negativeNumbers.size());
 
-        } else if (optionOfnumbers == 'p') {
+        } else if (NegativeOrPositive == 'p') {
             List<Integer> positiveNumbers = listOfNumbers.stream()
                     .filter(numbers -> numbers > 0)
                     .collect(Collectors.toList());
