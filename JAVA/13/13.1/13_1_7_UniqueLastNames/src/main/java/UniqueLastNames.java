@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class UniqueLastNames {
 
@@ -11,7 +14,7 @@ public class UniqueLastNames {
             System.out.println("Continue personal information input? \"quit\" ends:");
             String continueQ = "quit";
 
-            if(scanner.hasNextLine()) {
+            if (scanner.hasNextLine()) {
                 continueQ = scanner.nextLine();
             }
 
@@ -42,8 +45,21 @@ public class UniqueLastNames {
 
             persons.add(new Person(firstName, lastName, birthYear));
             System.out.println("");
+
+
         }
 
         // Implement the printing of the unique last names in alphabetical order here:
+
+        Set<String> uniqueLastNames = persons.stream()
+                .map(Person::getLastName)
+                .collect(Collectors.toSet());
+
+
+        uniqueLastNames.stream()
+                .sorted()
+                .forEach(System.out::println);
     }
+
 }
+
