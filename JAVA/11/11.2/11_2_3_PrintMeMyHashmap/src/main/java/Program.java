@@ -24,18 +24,18 @@ public class Program {
 
     public static void printKeysWhere(HashMap<String, String> hashMap, String text) {
 
-        for (String keys : hashMap.keySet()) {
-            if (keys.contains(text)) {
-                System.out.println(keys);
+        for (String key : hashMap.keySet()) {
+            if (key.contains(text)) {
+                System.out.println(key);
             }
         }
     }
 
     public static void printValuesOfKeysWhere(HashMap<String, String> hashMap, String text) {
 
-        hashMap.forEach((keys, values) -> {
-            if (keys.contains(text)) {
-                System.out.println(values);
+        hashMap.forEach((key, value) -> {
+            if (key.contains(text)) {
+                System.out.println(value);
             }
         });
     }
