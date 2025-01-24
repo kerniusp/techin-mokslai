@@ -1,21 +1,21 @@
 import java.util.ArrayList;
 
-public class ProductWarehouse extends  Warehouse{
+public class ProductWarehouse extends Warehouse {
+
+    private String name;
 
 
-    private String productName;
-
-    public ProductWarehouse(String productName, double capacity){
-            super(capacity);
-            this.productName = productName;
+    public ProductWarehouse(String name, Double capacity) {
+        super(capacity);
+        this.name = name;
     }
 
     public String getName() {
-        return productName;
+        return name;
     }
 
-    public void setName(String productName) {
-        this.productName = productName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
