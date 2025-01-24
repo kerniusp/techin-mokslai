@@ -16,10 +16,8 @@ public class Abbreviations {
 
     public boolean hasAbbreviation(String abbrevation) {
 
-        if (abbrev.containsKey(abbrevation)) {
-            return true;
-        }
-        return false;
+        return abbrev.containsKey(abbrevation);
+
     }
 
     public String findExplanationFor(String abbrevation) {
