@@ -9,7 +9,7 @@ public class Main {
         gym.addMemeber(2, "Bob", 25);
         gym.addMemeber(3, "Jeff", 58);
 
-        gym.printMemebers();
+        gym.printMembers();
         System.out.println("---");
 
         gym.assignMembership(new MonthlyMembership(1, 1, 2));
@@ -22,7 +22,10 @@ public class Main {
         gym.addGymClass("Yoga", "Monday 6 PM");
         gym.addGymClass("Zumba", "Wednesday 7 PM");
 
-        gym.enrollMemberInClass(2, "Yoga");
+
+        gym.enrollMemberInClass(1, "Yoga");
+        gym.enrollMemberInClass(2, "Zumba");
+        gym.enrollMemberInClass(3, "Yoga");
 
 
         gym.printClassEnrollments();

@@ -3,8 +3,7 @@ public abstract class Membership {
     private int memberId;
 
     public Membership() {
-        this.membershipId = membershipId;
-        this.memberId = memberId;
+
     }
 
     abstract int getCost();

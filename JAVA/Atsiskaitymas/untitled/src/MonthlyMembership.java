@@ -16,11 +16,11 @@ public class MonthlyMembership extends Membership {
 
     @Override
     int getCost() {
-        return 0;
+        return duration * 30;
     }
 
     @Override
     public String toString() {
-        return "MonthlyMembership, " + "Cost: " + duration * 30 + ", Duration: " + duration + " months";
+        return "MonthlyMembership, " + "Cost: " + getCost() + ", Duration: " + duration + " months";
     }
 }
